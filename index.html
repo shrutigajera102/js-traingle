@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> TRIANGLE AREA CALCULATOR</h1>
+   Enter the base of triangle : <input id="base" type="text"><br>
+   Enter the height of triangle: <input id="height" type="text"><br>
+
+   <button class="bt" onclick="triangle()">calculate area</button>
+
+   <h2 id="result"></h2>
+     <h2 id="result1"></h2>
+
+<script>
+ function triangle(){
+    var base = document.getElementById("base").value;
+     var height = document.getElementById("height").value;
+
+     
+
+     var area = (base * height)/2;
+     document.getElementById("result").innerHTML="the area of triangle " + area;
+
+ }
+
+
+
+</script>
+
+</body>
+</html>

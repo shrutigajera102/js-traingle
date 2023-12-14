@@ -1,0 +1,25 @@
+#base{
+    margin-bottom: 20px;
+text-align: center;
+width: 250px;
+height: 20px;margin-bottom: 20px;
+text-align: center;
+width: 250px;
+height: 20px;
+}
+#height{
+    margin-bottom: 20px;
+text-align: center;
+width: 250px;
+height: 20px;
+}
+body{
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(22, 23, 23);
+    color: #fff;
+}
+.bt{
+    padding: 5px;
+    width: 100px;
+}
